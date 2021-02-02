@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import url(sanitize.css);
+/*トップ画像ここから*/
+
+.top-image {
+    background-image: url(images/top.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.top-image p {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px rgb(54, 188, 206);
+    padding: 85px 30px;
+}
+
+/*トップ画像ここまで*/
+
+#contents {
+    margin: 10px;
+}
+
+.innerTitle {
+    margin: 20px 0;
+    color: rgb(54, 188, 206);
+}
+
+/*診療案内ページ*/
+.MedicalInfo {
+    margin: 0;
+}
+.MedicalInfo dt{
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(54, 188, 206);
+    display: inline-block;
+}
+
+.MedicalInfo dd {
+    margin: 0;
+}
+
+/*診療案内ページここまで*/
+/*院長・スタッフ紹介ページ*/
+
+#doc-intro img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+}
+
+#doc-intro p {
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+#doc-intro p span {
+    font-size: 150%;
+}
+
+.intro-list li {
+    position: relative;
+    padding: 0.2em 0;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.intro-list li:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: .9em;
+    height: .9em;
+    background: rgb(156, 227, 225);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#clinic_image {
+    text-align: center;
+}
+
+#clinic_image img {
+    width: 100%;
+    height: 200px;    
+    object-fit: cover;
+    object-position: 0 100%;
+}
+/*院長・スタッフ紹介ページここまで*/
+
+/*アクセスページ*/
+#map {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(54, 188, 206);
+}
+
+#map iframe {
+    width: 100%;
+}
+/*アクセスページここまで*/
